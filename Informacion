@@ -1,0 +1,27 @@
+//Insertar tabla Jugador
+
+INSERT INTO Jugador VALUES (1,'pepito','1234','juan','alcachofa','jalcachofa@asdf.com','img1'),
+(2,'DARK','4321','Mario','Mendez','mm@asdf.com','img2'),(3,'kaka','11133','Caro','Ochoa','asdf@gmail.com','img3'),
+(4,'Pollo','777','Daniel','Pollooo','poll@ad.com','img4'),(5,'Mollo','66','Juan','Chazo','ccc@asd.com','img5'),
+(6,'Oso','555','Luis','Osorio','oso@asdf.com','img6')
+
+//Insertar tabla Categoria
+
+INSERT INTO Categoria VALUES (1,'Accion','Requieren que el jugador haga uso de sus reflejos, puntería y habilidad'),
+(2,'Shooter','Conocidos también como FPS (first person shooter)'),
+(3,'Estrategia','Se caracterizan por la necesidad de manipular a un numeroso grupo de personajes, objetos o datos'),
+(4,'Simulacion','Este género se caracteriza por recrear situaciones o actividades del mundo real'),
+(5,'Deporte','Los videojuegos de deportes son aquellos que simulan deportes del mundo real'),
+(6,'Carreras','Sitúan al jugador en un recorrido en el que debe llegar a una meta antes que sus contrincantes o dentro de un tiempo límite')
+
+
+//Insertar tabla Pegi
+
+INSERT INTO Pegi VALUES 
+(1,'7','Pueden considerarse aptos para esta categoría los juegos que normalmente se clasificarían dentro de 3 pero que contengan escenas o sonidos que puedan asustar.'),
+(2,'12','En esta categoría pueden incluirse los videojuegos que muestren violencia de una naturaleza algo más gráfica hacia personajes de fantasía.'),
+(3,'16','Esta categoría se aplica cuando la representación de la violencia (o actividad sexual) alcanza un nivel similar al que cabría esperar en la vida real.'),
+(4,'18','La clasificación de adulto se aplica cuando el nivel de violencia alcanza tal grado que se convierte en representación de violencia brutal.')
+
+
+//
