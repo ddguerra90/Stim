@@ -128,3 +128,8 @@ ALTER TABLE "puntaje" ADD CONSTRAINT "FK_puntaje_juego"
 ALTER TABLE "puntaje" ADD CONSTRAINT "FK_puntaje_jugador"
 	FOREIGN KEY ("jugador") REFERENCES "jugador" ("id") ON DELETE No Action ON UPDATE No Action
 ;
+/* Create Uniques Constraints */
+
+
+ALTER TABLE jugador ADD CONSTRAINT UQ_Jugador_Nickname UNIQUE (nickname);
+ALTER TABLE juego ADD CONSTRAINT UQ_Juego_Nombre UNIQUE (nombre);
