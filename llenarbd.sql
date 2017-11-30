@@ -3,7 +3,7 @@ INSERT INTO Jugador VALUES (1,'pepito','1234','juan','alcachofa','jalcachofa@asd
 INSERT INTO Jugador VALUES (2,'jonsnow','nosabesnada','jon','snow','jsnow@asdf.com','img67');
 INSERT INTO Jugador VALUES (3,'khalesi','ioquese','daenerys','targaryen','dtarga@asdf.com','img09');
 INSERT INTO Jugador VALUES (4,'puto','lahorasad','david','castro','dcastro@asdf.com','img801');
-INSERT INTO Jugador VALUES (5,'asdf','lkjh','asdf','ñlkj','añlkj@asdf.com','img2');
+INSERT INTO Jugador VALUES (5,'asdf','lkjh','asdf','Ã±lkj','aÃ±lkj@asdf.com','img2');
 INSERT INTO Jugador VALUES (6,'elpapu','depapus','twin','lanister','tlanis@asdf.com','img407');
 INSERT INTO Jugador VALUES (7,'chucknorris','addfj','carlos','norris','cnorris@asdf.com','img052');
 INSERT INTO Jugador VALUES (8,'billgates','$$$$','bill','gates','bgates@asdf.com','img864');
@@ -26,7 +26,7 @@ INSERT INTO Juego VALUES (5,'AnimDK','esquiva el barril','AnimDK',1,2);
 
 /*llenado Categoria*/
 INSERT INTO Categoria Values(1,'plataforma','asdf');
-INSERT INTO Categoria Values(2,'rpg','lñkjh');
+INSERT INTO Categoria Values(2,'rpg','lÃ±kjh');
 INSERT INTO Categoria Values(3,'hack n slash','qwert');
 INSERT INTO Categoria Values(4,'shoter','poiuy');
 INSERT INTO Categoria Values(5,'arcade','uvuwev osas');
@@ -44,9 +44,9 @@ INSERT INTO Juego_Categoria Values(9,5,1);
 INSERT INTO Juego_Categoria Values(10,5,5);
 
 /*llenado Puntaje*/
-INSERT INTO Puntaje Values(1,1,1,29-11-2017,35);
-INSERT INTO Puntaje Values(2,2,1,29-11-2017,12);
-INSERT INTO Puntaje Values(3,3,1,29-11-2017,25);
-INSERT INTO Puntaje Values(4,1,2,29-11-2017,51);
-INSERT INTO Puntaje Values(5,1,2,29-11-2017,108);
-INSERT INTO Puntaje Values(6,2,3,29-11-2017,23);
+INSERT INTO Puntaje Values(1,1,1,'29-11-2017',35);
+INSERT INTO Puntaje Values(2,2,1,'29-11-2017',12);
+INSERT INTO Puntaje Values(3,3,1,'29-11-2017',25);
+INSERT INTO Puntaje Values(4,1,2,'29-11-2017',51);
+INSERT INTO Puntaje Values(5,1,2,'29-11-2017',108);
+INSERT INTO Puntaje Values(6,2,3,'29-11-2017',23);
