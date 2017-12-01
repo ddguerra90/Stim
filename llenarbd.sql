@@ -21,7 +21,7 @@ INSERT INTO Pegi Values(5,'18','mayores de 18');
 INSERT INTO Juego VALUES (1,'Asteroide','esquiva los asteroides','Asteroide',1,2);
 INSERT INTO Juego VALUES (2,'Llorona','esquiva la llorona','Llorrona',1,2);
 INSERT INTO Juego VALUES (3,'Kong','esquiva el barril','Kong',1,2);
-INSERT INTO Juego VALUES (4,'Donkey','esquiva el barril','Donkey',1,2);
+INSERT INTO Juego VALUES (4,'NinoLlamas','esquiva las llamas','NinoLlamas',1,2);
 INSERT INTO Juego VALUES (5,'AnimDK','esquiva el barril','AnimDK',1,2);
 
 /*llenado Categoria*/
